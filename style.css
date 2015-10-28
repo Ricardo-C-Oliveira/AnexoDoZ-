@@ -5,18 +5,24 @@ html, body {
   width: 100%;
   overflow: hidden;
 }
-h2 {
+#sideBar{
+  background-color: #16a085
+}
+.header {
+  text-align: center;
+  margin-top: 1vh;
+  border: 2px solid white;
+  border-radius: 3px;
+}
+h4{
+  margin-top: 2vh;
+  margin-bottom: 2vh;
   font-family: 'Oswald', sans-serif;
-  font-weight: bold;
 }
 #of {
+  margin-top: -10px;
+  margin-bottom: -10px;
   font-family: 'Satisfy', cursive;
-  margin-bottom: 0;
-  font-size: 22px;
-}
-.fancy {
-  line-height: 0.5;
-  text-align: center;
 }
 .fancy span {
   display: inline-block;
@@ -28,7 +34,7 @@ h2 {
   height: 7px;
   border-bottom: 1px solid white;
   top: 0;
-  width: 100px;
+  width: 60px;
 }
 .fancy span:before {
   right: 100%;
@@ -38,77 +44,16 @@ h2 {
   left: 100%;
   margin-left: 16px;
 }
-#content {
-  font-family: 'Roboto', sans-serif;
-  font-size: 15;
-  text-align: justify;
-  padding-right: 10;
-}
-#footer {
- padding-top: 20px;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
+.form-inline{
+  margin-top: 5px;
   text-align: center;
-  color: rgb(255, 255, 255);
-  font-family: 'Amatic SC', cursive;
-  font-size: 18;
 }
-#Info {
-  background-color: #16a085;
-  z-index: 1000;
-  height: auto;
-  min-height: 100%;
-}
-#info {
-  background-color: #ffffff;
-  height: 650px;
+#info > div{
+  background-color: white;
+  max-height: 50vh;
   overflow: auto;
-  margin-top: 15px
 }
-#start {
-  padding-top: 10;
-  color: #000000
-}
-.sidebarContent {
-  color: #ffffff;
-}
-a {
-  color: #ffffff;
-  font-weight: bold;
-}
-.inline {
-  display: inline-block;
-}
-.header {
-  width: 230px;
-  border: 2px solid white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+#footer{
   text-align: center;
-  border-radius: 3px;
-}
-.header h2 {
-  margin: 5px;
-}
-.legend-labels span {
-  display: block;
-  float: left;
-  height: 20px;
-  width: 45px;
-  margin-right: 5px;
-  margin-left: 0;
-}
-.legend-scale ul li {
-  list-style: none;
-  margin-left: 0;
-  line-height: 20px;
-  margin-bottom: 2px;
-}
-.legend-scale ul {
-  margin: 0;
-  margin-bottom: 5px;
-  padding: 0;
-  float: left;
-  list-style: none;
+  font-size: 10px;
 }
